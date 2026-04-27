@@ -1,5 +1,6 @@
 {
   "name": "pokeapi-assignment",
+  "homepage": "https://Oks3n.github.io/PokeAPI/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.13.1"
