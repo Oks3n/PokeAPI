@@ -12,7 +12,7 @@ import Navbar from "./Navbar"
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
     <Navbar />
       <Routes>
         <Route path="/page/:pageNumber" element={<PokedexPage />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/pokemon/:id" element={<PokemonPage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
